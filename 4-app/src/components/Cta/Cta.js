@@ -1,16 +1,14 @@
-import React from 'react';
-import Icon from '../Icon/Icon';
-import './Cta.scss';
+import Icon from '../Icon/Icon'
+import './Cta.scss'
 
-function Cta(props) {
-  const cssClass = 'Cta';
-  const content = props.icon ? <Icon icon={props.icon} type={props.iconType} /> : props.label;
+const Cta = ({ icon, iconType, type, label }) => {
+  console.log(icon, type, label, iconType)
+  const cssClass = 'Cta'
+  const content = icon ? <Icon icon={icon} type={iconType} /> : label
 
   return (
-    <button className={`${cssClass} ${cssClass}--${props.type}`}>
-      {content}
-    </button>
-  );
+    <button className={`${cssClass} ${cssClass}--${type}`}>{content}</button>
+  )
 }
 
-export default Cta;
+export default Cta
