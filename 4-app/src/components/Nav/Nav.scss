@@ -1,8 +1,6 @@
-@import "../../scss/base.scss";
+@import '../../scss/base.scss';
 
 .Nav {
-  $self: &;
-
   left: 0;
   padding: 16px 0 0;
   position: absolute;
@@ -43,15 +41,12 @@
     font-weight: 300;
     line-height: 2;
     margin-right: $padding-small;
-    transition: transform 0.4s ease-in-out;
+    transition: all 0.3s ease;
 
     &:active,
     &:focus,
     &:hover {
       transform: translateY(-5px);
-    }
-
-    &:first-child {
       border-bottom: 3px solid $color-primary;
     }
 

@@ -1,4 +1,4 @@
-@import "../../scss/base.scss";
+@import '../../scss/base.scss';
 
 .Menu {
   padding: $padding-large 0;
@@ -27,7 +27,7 @@
   &-product {
     grid-column: 1/-1;
     margin-bottom: $padding-small;
-    
+
     @include for-size(l) {
       &:nth-child(1) {
         grid-column: 1/5;
