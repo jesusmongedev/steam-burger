@@ -34,10 +34,12 @@
 
   &--terciary,
   &--cuaternary {
+    display: grid;
+    place-items: center;
     border-radius: 50%;
-    height: 70px;
+    height: 55px;
     padding: 5px;
-    width: 70px;
+    width: 55px;
 
     &:active,
     &:focus,
