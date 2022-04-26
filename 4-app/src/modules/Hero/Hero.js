@@ -1,6 +1,5 @@
 import Cta from '../../components/Cta/Cta'
 import Icon from '../../components/Icon/Icon'
-import './Hero.scss'
 
 const Hero = ({ content }) => {
   const cssClass = 'Hero'

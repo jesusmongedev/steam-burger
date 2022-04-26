@@ -1,5 +1,4 @@
 import Cta from '../Cta/Cta'
-import './Challenge.scss'
 
 const Challenge = ({ content }) => {
   const cssClass = 'Challenge'

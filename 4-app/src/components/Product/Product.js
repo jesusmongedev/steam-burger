@@ -1,6 +1,4 @@
-import React from 'react'
 import Cta from '../Cta/Cta'
-import './Product.scss'
 
 const Product = ({ content }) => {
   const cssClass = 'Product'

@@ -1,5 +1,4 @@
 import Icon from '../Icon/Icon'
-import './Cta.scss'
 
 const Cta = ({ icon, iconType, type, label }) => {
   console.log(icon, type, label, iconType)

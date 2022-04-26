@@ -1,4 +1,4 @@
-@import '../../scss/base.scss';
+@use '../../scss/abstracts/index' as *;
 
 .ContactBox {
   border: 3px solid $color-black;

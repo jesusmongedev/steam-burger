@@ -1,6 +1,5 @@
 import Cta from '../../components/Cta/Cta'
 import Product from '../../components/Product/Product'
-import './Menu.scss'
 
 const Menu = ({ content }) => {
   const cssClass = 'Menu'

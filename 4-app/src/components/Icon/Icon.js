@@ -7,7 +7,6 @@ import lightHamburger from '../../images/light-hamburger.svg'
 import nav from '../../images/nav.svg'
 import soda from '../../images/soda.svg'
 import tiktok from '../../images/tiktok.svg'
-import './Icon.scss'
 
 const Icon = ({ type, icon }) => {
   const cssClass = 'Icon'

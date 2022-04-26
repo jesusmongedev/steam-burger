@@ -1,4 +1,4 @@
-@import '../../scss/base.scss';
+@use '../../scss/abstracts/index' as *;
 
 .Hero {
   background-color: $color-cuaternary;

@@ -1,5 +1,5 @@
 import Cta from '../Cta/Cta'
-import './Nav.scss'
+// import './Nav.scss'
 
 const Nav = ({ content, type }) => {
   const cssClass = 'Nav'

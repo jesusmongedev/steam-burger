@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import StyleGuide from './pages/StyleGuide'
 import Home from './pages/Home'
 import AppContent from './content/app-content'
+import './scss/base.scss'
 
 const ROUTES = {
   home: '/',

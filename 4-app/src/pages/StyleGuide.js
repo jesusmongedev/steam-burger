@@ -6,7 +6,7 @@ import Menu from '../modules/Menu/Menu'
 import Nav from '../components/Nav/Nav'
 import Quote from '../components/Quote/Quote'
 import Product from '../components/Product/Product'
-import './StyleGuide.scss'
+// import './StyleGuide.scss'
 
 const StyleGuide = ({ content }) => {
   const sections = content.styleguide.sections

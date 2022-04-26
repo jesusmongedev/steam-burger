@@ -1,4 +1,4 @@
-import './ContactBox.scss'
+// import './ContactBox.scss'
 
 const ContactBox = ({ content }) => {
   const cssClass = 'ContactBox'

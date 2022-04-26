@@ -1,4 +1,5 @@
-@import '../../scss/base.scss';
+@use '../../scss/abstracts/index' as *;
+@use '../../components/ContactBox/ContactBox';
 
 .Contact {
   padding: $padding-large 0;

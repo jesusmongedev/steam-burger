@@ -1,5 +1,4 @@
 import ContactBox from '../../components/ContactBox/ContactBox'
-import './Contact.scss'
 
 const Contact = ({ content }) => {
   const cssClass = 'Contact'
