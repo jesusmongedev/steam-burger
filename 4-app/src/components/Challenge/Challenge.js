@@ -8,7 +8,7 @@ const Challenge = ({ content }) => {
   }
 
   return (
-    <div className={cssClass}>
+    <div className={cssClass} id="promo">
       <h4 className={`${cssClass}-title`}>{content.title}</h4>
       <p className={`${cssClass}-content p--light`}>{content.subtitle}</p>
       <ul className={`${cssClass}-icons`}>

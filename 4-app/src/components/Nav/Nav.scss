@@ -7,7 +7,7 @@
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 3;
 
   a {
     color: $color-black;
@@ -18,30 +18,28 @@
     color: $color-white;
   }
 
-  &-button {
-    @include for-size(l) {
-      display: none;
-    }
-  }
-
   &-list {
-    display: none;
+    padding: 0;
     grid-column: 1/-1;
     justify-content: center;
     list-style: none;
-    padding: 0;
-
+    transform: translateX(-100vw);
+    transition: transform 0.3s;
+    position: fixed;
+    top: 12%;
+    background-color: rgba($color: black, $alpha: 0.75);
     @include for-size(l) {
+      position: initial;
       display: flex;
     }
   }
 
   &-item {
+    margin-right: $padding-small;
     font-family: $font-primary;
     font-size: $font-size-small;
     font-weight: 300;
     line-height: 2;
-    margin-right: $padding-small;
     transition: all 0.3s ease;
 
     &:active,
@@ -55,4 +53,8 @@
       margin-right: 0;
     }
   }
+}
+
+.menu-open {
+  transform: translateX(0);
 }

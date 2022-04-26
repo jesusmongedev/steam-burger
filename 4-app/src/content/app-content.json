@@ -4,23 +4,23 @@
     "items": [
       {
         "label": "Home",
-        "url": "/"
+        "url": "#home"
       },
       {
         "label": "Nosotros",
-        "url": "/"
+        "url": "#nosotros"
       },
       {
         "label": "Menú",
-        "url": "/"
+        "url": "#menu"
       },
       {
         "label": "Promociones",
-        "url": "/"
-      }, 
+        "url": "#promo"
+      },
       {
         "label": "Contacto",
-        "url": "/"
+        "url": "#contacto"
       }
     ]
   },

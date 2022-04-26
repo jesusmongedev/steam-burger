@@ -10,7 +10,7 @@ const Menu = ({ content }) => {
   }
 
   return (
-    <div className={cssClass}>
+    <div className={cssClass} id="menu">
       <h3>{content.title}</h3>
       <ul className={`${cssClass}-tabs`}>
         {content.items.map((item, index) => (
